@@ -1,0 +1,12 @@
+{
+  "name": "Take Off App",
+  "description": "A simple rails app using take_off",
+  "keywords": [
+    "rails"
+  ],
+  "addons": [
+    "heroku-postgresql",
+    "sendgrid"
+  ],
+  "env": {}
+}
