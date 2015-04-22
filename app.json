@@ -8,6 +8,9 @@
     "heroku-postgresql",
     "sendgrid"
   ],
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate"
+  },
   "env": {
     "SECRET_KEY_BASE": {
       "description": "A secret key for verifying the integrity of signed cookies.",
